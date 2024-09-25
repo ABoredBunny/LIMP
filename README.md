@@ -12,6 +12,7 @@ Interactive pornography doesn't trigger these patterns.
 Create a pretend server to get the speed events, ANALyse the input, Pick patterns according to the ANALysis.
 
 **The Implementation:**
+
 ***server.js*** module pretends to be a V2 server to get Vibration speed.
 
 ***variation.js*** determines how varied the input pattern is, with more or less success.
@@ -28,7 +29,7 @@ There are features like holding a pattern, interupting it etc.
 **Configuration:**
 ***server.js*** includes the pretend server ip and port. By default it is localhost:8080
 
-**RUN.js*** includes the targeted Intiface IP(localhost:12345 by default) 
+***RUN.js*** includes the targeted Intiface IP(localhost:12345 by default) 
 It also includes window size for the Algorithms
 
 **Dependency:**
@@ -36,9 +37,9 @@ You need *Node.js*
 You run "node npm i websocket express" in the folder to download the dependencies.
 
 **Running:**
+Execute "node RUN.js" in the folder with a Terminal(like CMD)
 Connect your client(like script player) to the ip set in server.js 
 And your server(Intiface®) to the IP set in RUN.js
-Execute "node RUN.js" in the folder with a Terminal(like CMD)
 
 
 **Issues:**
